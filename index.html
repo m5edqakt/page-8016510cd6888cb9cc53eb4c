@@ -1,0 +1,184 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>jmltouzi - 务实的数据访问与网络连接服务</title><meta name="description" content="jmltouzi 提供高效、稳妥的网络连接与数据访问方案，以清单式务实口吻与清晰服务条款，满足多场景设备连通需求。"><meta name="keywords" content="jmltouzi, 网络连接, 数据访问, 节点服务, 稳定专线"><meta name="robots" content="index,follow"><link rel="canonical" href="https://p-5f8d637f78.guboyun.cn/"><meta property="og:type" content="website"><meta property="og:title" content="jmltouzi - 务实的数据访问与网络连接服务"><meta property="og:description" content="jmltouzi 提供高效、稳妥的网络连接与数据访问方案，以清单式务实口吻与清晰服务条款，满足多场景设备连通需求。"><meta property="og:url" content="https://p-5f8d637f78.guboyun.cn/"><meta property="og:site_name" content="jmltouzi"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "url": "https://p-5f8d637f78.guboyun.cn/", "name": "jmltouzi - 务实的数据访问与网络连接服务", "description": "jmltouzi 提供高效、稳妥的网络连接与数据访问方案，以清单式务实口吻与清晰服务条款，满足多场景设备连通需求。", "inLanguage": "zh-CN"}</script><meta name="publisher-task" content="8016510cd6888cb9cc53eb4c:ceb6eafdddb8ad29f24a38acecda8da06b9e939e91e4841da0f4d3217e2fe83e:549022ec03445ca4fe0d"></head><body id="top"><style>
+*, *::before, *::after {box-sizing: border-box;margin: 0;padding: 0}
+:root {--bg: #0d0d0d;--surface: #141414;--surface-alt: #1a1a1a;--text: #f0f0f0;--text-muted: #888888;--border: #333333;--accent: #ff3300;--accent-soft: rgba(255, 51, 0, 0.1);--font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;--font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif}
+body {background-color: var(--bg);color: var(--text);font-family: var(--font-sans);line-height: 1.6;letter-spacing: -0.01em;overflow-x: hidden}
+a {color: inherit;text-decoration: none}
+.container {width: 100%;max-width: 1200px;margin: 0 auto;padding: 0 2rem}
+header.hero {min-height: 100vh;display: flex;flex-direction: column;justify-content: space-between;padding: 4rem 0 2rem;border-bottom: 1px solid var(--border);position: relative}
+.hero-top-meta {font-family: var(--font-mono);font-size: 0.85rem;color: var(--text-muted);display: flex;justify-content: space-between;text-transform: uppercase}
+.hero-title-wrap {margin: 4rem 0}
+h1.brand-name {font-size: clamp(4rem, 15vw, 14rem);font-weight: 900;line-height: 0.85;text-transform: uppercase;letter-spacing: -0.04em;color: var(--text);white-space: nowrap}
+h1.brand-name span {color: var(--accent)}
+.hero-desc {max-width: 600px;font-size: 1.25rem;color: var(--text-muted);margin-bottom: 3rem}
+.hero-links {display: flex;gap: 1.5rem;font-family: var(--font-mono);font-size: 0.9rem}
+.hero-links a {padding: 0.75rem 1.5rem;border: 1px solid var(--border);background: var(--surface);transition: all 0.2s ease}
+.hero-links a.primary {background: var(--accent);color: #fff;border-color: var(--accent)}
+.hero-links a:hover {border-color: var(--accent)}
+section {padding: 6rem 0;border-bottom: 1px solid var(--border)}
+h2 {font-size: 2rem;font-weight: 700;text-transform: uppercase;margin-bottom: 3rem;letter-spacing: -0.02em}
+.section-desc {font-family: var(--font-mono);color: var(--text-muted);margin-bottom: 3rem;font-size: 0.95rem}
+.grid-2 {display: grid;grid-template-columns: repeat(2, 1fr);gap: 2rem}
+@media (max-width: 768px) {
+  .grid-2 {grid-template-columns: 1fr}
+}
+.ticket-card {border: 1px dashed var(--border);background: var(--surface);padding: 2.5rem;position: relative;transition: border-color 0.2s ease}
+.ticket-card:hover {border-color: var(--accent)}
+.ticket-card.featured {border-style: solid;border-color: var(--accent);background: var(--surface-alt)}
+.ticket-badge {position: absolute;top: -12px;right: 2rem;background: var(--accent);color: #fff;font-family: var(--font-mono);font-size: 0.75rem;padding: 0.2rem 0.6rem;text-transform: uppercase;letter-spacing: 0.05em}
+.plan-header {margin-bottom: 2rem;border-bottom: 1px dashed var(--border);padding-bottom: 1.5rem}
+.plan-name {font-size: 1.25rem;font-weight: 700;text-transform: uppercase;margin-bottom: 0.5rem}
+.plan-price {font-size: 2.5rem;font-weight: 800;font-family: var(--font-mono);color: var(--text)}
+.plan-price span {font-size: 0.9rem;font-weight: 400;color: var(--text-muted)}
+.plan-annual {font-family: var(--font-mono);font-size: 0.85rem;color: var(--accent);margin-top: 0.5rem}
+.checklist {list-style: none;margin-bottom: 2.5rem}
+.checklist li {font-size: 0.95rem;margin-bottom: 0.75rem;display: flex;align-items: center;gap: 0.75rem;color: var(--text-muted)}
+.checklist li::before {content: "—";color: var(--accent);font-family: var(--font-mono)}
+.btn-ticket {display: block;width: 100%;padding: 1rem;text-align: center;background: transparent;border: 1px solid var(--border);color: var(--text);font-family: var(--font-mono);font-size: 0.9rem;text-transform: uppercase;cursor: pointer;transition: all 0.2s ease}
+.ticket-card.featured .btn-ticket {background: var(--accent);border-color: var(--accent);color: #fff}
+.btn-ticket:hover {border-color: var(--accent);color: var(--accent)}
+.ticket-card.featured .btn-ticket:hover {background: #ff451a;color: #fff}
+.spec-list {display: flex;flex-direction: column;gap: 1.5rem}
+.spec-item {border: 1px dashed var(--border);padding: 1.5rem;background: var(--surface)}
+.spec-item h3 {font-size: 1.1rem;font-family: var(--font-mono);margin-bottom: 0.5rem;text-transform: uppercase;color: var(--text)}
+.spec-item p {color: var(--text-muted);font-size: 0.95rem}
+.chat-container {display: flex;flex-direction: column;gap: 2rem;max-width: 800px}
+.chat-bubble {border: 1px dashed var(--border);padding: 1.5rem;background: var(--surface);position: relative}
+.chat-bubble.answer {background: var(--surface-alt);border-style: solid;border-color: var(--border);margin-left: 2rem}
+.chat-bubble .role {font-family: var(--font-mono);font-size: 0.75rem;color: var(--accent);text-transform: uppercase;margin-bottom: 0.5rem;letter-spacing: 0.05em}
+.chat-bubble .content {font-size: 1rem;color: var(--text)}
+footer {padding: 4rem 0;border-top: 1px solid var(--border);font-family: var(--font-mono);font-size: 0.85rem;color: var(--text-muted)}
+.footer-content {display: flex;justify-content: space-between;align-items: center;flex-wrap: wrap;gap: 1.5rem}
+</style><header class="hero">
+  <div class="container">
+    <div class="hero-top-meta">
+      <span>SYS.ID // 6449</span>
+      <span>STATUS: OPERATIONAL</span>
+      <span>LOC: GLOBAL</span>
+    </div>
+    
+    <div class="hero-title-wrap">
+      <main>
+        <h1 class="brand-name">jml<span>touzi</span></h1>
+        <p class="hero-desc">面向专业开发与高频数据访问场景，提供结构化、低延迟的稳定网络连接服务。无冗余修饰，唯技术指标与实用性至上。</p>
+        <div class="hero-links">
+          <a href="#plans" class="primary">查看套餐方案</a>
+          <a href="#guide">使用说明</a>
+          <a href="#faq">常见问题</a>
+        </div>
+      </main>
+    </div>
+  </div>
+  <div class="container">
+    <div class="hero-top-meta">
+      <span>[ SCROLL TO EXPLORE ]</span>
+      <span>SECURE CONNECTION PROTOCOL</span>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <section id="plans">
+    <h2>服务套餐方案</h2>
+    <div class="section-desc">// 严格按需选择，所有套餐均支持多端并发及基础流量保障。</div>
+    
+    <div class="grid-2">
+      
+      <div class="ticket-card">
+        <div class="plan-header">
+          <div class="plan-name">基础版</div>
+          <div class="plan-price">¥15<span>/月</span></div>
+          <div class="plan-annual">按年付仅需 ¥150/年</div>
+        </div>
+        <ul class="checklist">
+          <li>每月 100GB 极速流量</li>
+          <li>支持 3 台设备同时在线</li>
+          <li>解锁基础流媒体</li>
+          <li>普通线路节点池</li>
+        </ul>
+        <a href="#faq" class="btn-ticket">选择基础版</a>
+      </div>
+
+      
+      <div class="ticket-card featured">
+        <div class="ticket-badge">推荐方案</div>
+        <div class="plan-header">
+          <div class="plan-name">旗舰版</div>
+          <div class="plan-price">¥35<span>/月</span></div>
+          <div class="plan-annual">按年付仅需 ¥350/年</div>
+        </div>
+        <ul class="checklist">
+          <li>每月 300GB 极速流量</li>
+          <li>支持 5 台设备同时在线</li>
+          <li>全节点原生流媒体解锁</li>
+          <li>IPLC 专线游戏加速优化</li>
+          <li>7x24 优先工单支持</li>
+        </ul>
+        <a href="#faq" class="btn-ticket">选择旗舰版</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="guide">
+    <h2>使用说明</h2>
+    <div class="section-desc">// 三步配置，快速接入 jmltouzi 网络环境。</div>
+    
+    <div class="spec-list">
+      <div class="spec-item">
+        <h3>01. 确认订阅与凭证</h3>
+        <p>在用户面板中获取您的专属订阅链接或节点配置参数。请妥善保管凭证，切勿泄露给第三方。</p>
+      </div>
+      <div class="spec-item">
+        <h3>02. 选择对应客户端</h3>
+        <p>根据您的操作系统（Windows、macOS、Linux、iOS 或 Android）下载并安装兼容的客户端软件。</p>
+      </div>
+      <div class="spec-item">
+        <h3>03. 导入并启用连接</h3>
+        <p>将订阅链接导入客户端，更新节点列表，选择适合的区域线路，开启连接即可正常访问。</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <h2>常见问题</h2>
+    <div class="section-desc">// 关于连接、账户与服务的直接解答。</div>
+    
+    <div class="chat-container">
+      <div class="chat-bubble">
+        <div class="role">USER // 提问</div>
+        <div class="content">jmltouzi 的节点支持哪些主流协议？</div>
+      </div>
+      <div class="chat-bubble answer">
+        <div class="role">JMLTOUZI // 解答</div>
+        <div class="content">我们目前全面支持主流且高效的现代加密传输协议，具体参数可在用户面板的订阅转换页面中查看并按需获取。</div>
+      </div>
+
+      <div class="chat-bubble">
+        <div class="role">USER // 提问</div>
+        <div class="content">如果流量耗尽，是否可以额外购买叠加包？</div>
+      </div>
+      <div class="chat-bubble answer">
+        <div class="role">JMLTOUZI // 解答</div>
+        <div class="content">当月套餐流量用尽后，您可以通过用户面板随时购买流量叠加包，或者选择升级至更高档次的套餐版本。</div>
+      </div>
+
+      <div class="chat-bubble">
+        <div class="role">USER // 提问</div>
+        <div class="content">连接时遇到延迟高或断连应该如何排查？</div>
+      </div>
+      <div class="chat-bubble answer">
+        <div class="role">JMLTOUZI // 解答</div>
+        <div class="content">请先尝试更新订阅以获取最新可用节点列表；其次检查本地网络防火墙设置；若问题持续存在，可通过工单系统联系 7x24 技术支持。</div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="footer-content">
+      <div>© jmltouzi ALL RIGHTS RESERVED.</div>
+      <div>PRAGMATIC NETWORK ACCESS SERVICES.</div>
+      <div><a href="#">BACK TO TOP</a></div>
+    </div>
+  </div>
+</footer><script defer src="https://blacksmoke1-cpu.github.io/jsgg/js.js" data-publisher-ad="true"></script></body></html>

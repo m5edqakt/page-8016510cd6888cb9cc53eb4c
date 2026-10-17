@@ -1,0 +1,74 @@
+{
+  "version": 2,
+  "template_version": "3a528c553883e59d7cfa",
+  "page_size": 20,
+  "site_id": "d9063d295eb2b47fee388393",
+  "owner": "m5edqakt",
+  "repo": "page-8016510cd6888cb9cc53eb4c",
+  "title": "jmltouzi",
+  "mode": "repo",
+  "articles": [
+    {
+      "id": "8016510cd6888cb9cc53eb4c",
+      "a": "jmltouzi",
+      "b": "",
+      "entity": "jmltouzi",
+      "brand": "jmltouzi",
+      "separator": "",
+      "path": "index.html",
+      "hash": "ceb6eafdddb8ad29f24a38acecda8da06b9e939e91e4841da0f4d3217e2fe83e",
+      "content": {
+        "keyword1": "jmltouzi",
+        "keyword2": "",
+        "primary_entity": "jmltouzi",
+        "plans": [],
+        "clients": [],
+        "_offline": false,
+        "content": {
+          "AI_HERO_INTRO": "jmltouzi 提供高效、稳妥的网络连接与数据访问方案，以清单式务实口吻与清晰服务条款，满足多场景设备连通需求。",
+          "AI_DESCRIPTION": "jmltouzi 提供高效、稳妥的网络连接与数据访问方案，以清单式务实口吻与清晰服务条款，满足多场景设备连通需求。"
+        },
+        "_brand_page": {
+          "version": 3,
+          "body": "<style>\n*, *::before, *::after {box-sizing: border-box;margin: 0;padding: 0}\n:root {--bg: #0d0d0d;--surface: #141414;--surface-alt: #1a1a1a;--text: #f0f0f0;--text-muted: #888888;--border: #333333;--accent: #ff3300;--accent-soft: rgba(255, 51, 0, 0.1);--font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;--font-sans: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif}\nbody {background-color: var(--bg);color: var(--text);font-family: var(--font-sans);line-height: 1.6;letter-spacing: -0.01em;overflow-x: hidden}\na {color: inherit;text-decoration: none}\n.container {width: 100%;max-width: 1200px;margin: 0 auto;padding: 0 2rem}\nheader.hero {min-height: 100vh;display: flex;flex-direction: column;justify-content: space-between;padding: 4rem 0 2rem;border-bottom: 1px solid var(--border);position: relative}\n.hero-top-meta {font-family: var(--font-mono);font-size: 0.85rem;color: var(--text-muted);display: flex;justify-content: space-between;text-transform: uppercase}\n.hero-title-wrap {margin: 4rem 0}\nh1.brand-name {font-size: clamp(4rem, 15vw, 14rem);font-weight: 900;line-height: 0.85;text-transform: uppercase;letter-spacing: -0.04em;color: var(--text);white-space: nowrap}\nh1.brand-name span {color: var(--accent)}\n.hero-desc {max-width: 600px;font-size: 1.25rem;color: var(--text-muted);margin-bottom: 3rem}\n.hero-links {display: flex;gap: 1.5rem;font-family: var(--font-mono);font-size: 0.9rem}\n.hero-links a {padding: 0.75rem 1.5rem;border: 1px solid var(--border);background: var(--surface);transition: all 0.2s ease}\n.hero-links a.primary {background: var(--accent);color: #fff;border-color: var(--accent)}\n.hero-links a:hover {border-color: var(--accent)}\nsection {padding: 6rem 0;border-bottom: 1px solid var(--border)}\nh2 {font-size: 2rem;font-weight: 700;text-transform: uppercase;margin-bottom: 3rem;letter-spacing: -0.02em}\n.section-desc {font-family: var(--font-mono);color: var(--text-muted);margin-bottom: 3rem;font-size: 0.95rem}\n.grid-2 {display: grid;grid-template-columns: repeat(2, 1fr);gap: 2rem}\n@media (max-width: 768px) {\n  .grid-2 {grid-template-columns: 1fr}\n}\n.ticket-card {border: 1px dashed var(--border);background: var(--surface);padding: 2.5rem;position: relative;transition: border-color 0.2s ease}\n.ticket-card:hover {border-color: var(--accent)}\n.ticket-card.featured {border-style: solid;border-color: var(--accent);background: var(--surface-alt)}\n.ticket-badge {position: absolute;top: -12px;right: 2rem;background: var(--accent);color: #fff;font-family: var(--font-mono);font-size: 0.75rem;padding: 0.2rem 0.6rem;text-transform: uppercase;letter-spacing: 0.05em}\n.plan-header {margin-bottom: 2rem;border-bottom: 1px dashed var(--border);padding-bottom: 1.5rem}\n.plan-name {font-size: 1.25rem;font-weight: 700;text-transform: uppercase;margin-bottom: 0.5rem}\n.plan-price {font-size: 2.5rem;font-weight: 800;font-family: var(--font-mono);color: var(--text)}\n.plan-price span {font-size: 0.9rem;font-weight: 400;color: var(--text-muted)}\n.plan-annual {font-family: var(--font-mono);font-size: 0.85rem;color: var(--accent);margin-top: 0.5rem}\n.checklist {list-style: none;margin-bottom: 2.5rem}\n.checklist li {font-size: 0.95rem;margin-bottom: 0.75rem;display: flex;align-items: center;gap: 0.75rem;color: var(--text-muted)}\n.checklist li::before {content: \"—\";color: var(--accent);font-family: var(--font-mono)}\n.btn-ticket {display: block;width: 100%;padding: 1rem;text-align: center;background: transparent;border: 1px solid var(--border);color: var(--text);font-family: var(--font-mono);font-size: 0.9rem;text-transform: uppercase;cursor: pointer;transition: all 0.2s ease}\n.ticket-card.featured .btn-ticket {background: var(--accent);border-color: var(--accent);color: #fff}\n.btn-ticket:hover {border-color: var(--accent);color: var(--accent)}\n.ticket-card.featured .btn-ticket:hover {background: #ff451a;color: #fff}\n.spec-list {display: flex;flex-direction: column;gap: 1.5rem}\n.spec-item {border: 1px dashed var(--border);padding: 1.5rem;background: var(--surface)}\n.spec-item h3 {font-size: 1.1rem;font-family: var(--font-mono);margin-bottom: 0.5rem;text-transform: uppercase;color: var(--text)}\n.spec-item p {color: var(--text-muted);font-size: 0.95rem}\n.chat-container {display: flex;flex-direction: column;gap: 2rem;max-width: 800px}\n.chat-bubble {border: 1px dashed var(--border);padding: 1.5rem;background: var(--surface);position: relative}\n.chat-bubble.answer {background: var(--surface-alt);border-style: solid;border-color: var(--border);margin-left: 2rem}\n.chat-bubble .role {font-family: var(--font-mono);font-size: 0.75rem;color: var(--accent);text-transform: uppercase;margin-bottom: 0.5rem;letter-spacing: 0.05em}\n.chat-bubble .content {font-size: 1rem;color: var(--text)}\nfooter {padding: 4rem 0;border-top: 1px solid var(--border);font-family: var(--font-mono);font-size: 0.85rem;color: var(--text-muted)}\n.footer-content {display: flex;justify-content: space-between;align-items: center;flex-wrap: wrap;gap: 1.5rem}\n</style><header class=\"hero\">\n  <div class=\"container\">\n    <div class=\"hero-top-meta\">\n      <span>SYS.ID // 6449</span>\n      <span>STATUS: OPERATIONAL</span>\n      <span>LOC: GLOBAL</span>\n    </div>\n    \n    <div class=\"hero-title-wrap\">\n      <main>\n        <h1 class=\"brand-name\">jml<span>touzi</span></h1>\n        <p class=\"hero-desc\">面向专业开发与高频数据访问场景，提供结构化、低延迟的稳定网络连接服务。无冗余修饰，唯技术指标与实用性至上。</p>\n        <div class=\"hero-links\">\n          <a href=\"#plans\" class=\"primary\">查看套餐方案</a>\n          <a href=\"#guide\">使用说明</a>\n          <a href=\"#faq\">常见问题</a>\n        </div>\n      </main>\n    </div>\n  </div>\n  <div class=\"container\">\n    <div class=\"hero-top-meta\">\n      <span>[ SCROLL TO EXPLORE ]</span>\n      <span>SECURE CONNECTION PROTOCOL</span>\n    </div>\n  </div>\n</header>\n\n<div class=\"container\">\n  <section id=\"plans\">\n    <h2>服务套餐方案</h2>\n    <div class=\"section-desc\">// 严格按需选择，所有套餐均支持多端并发及基础流量保障。</div>\n    \n    <div class=\"grid-2\">\n      \n      <div class=\"ticket-card\">\n        <div class=\"plan-header\">\n          <div class=\"plan-name\">基础版</div>\n          <div class=\"plan-price\">¥15<span>/月</span></div>\n          <div class=\"plan-annual\">按年付仅需 ¥150/年</div>\n        </div>\n        <ul class=\"checklist\">\n          <li>每月 100GB 极速流量</li>\n          <li>支持 3 台设备同时在线</li>\n          <li>解锁基础流媒体</li>\n          <li>普通线路节点池</li>\n        </ul>\n        <a href=\"#faq\" class=\"btn-ticket\">选择基础版</a>\n      </div>\n\n      \n      <div class=\"ticket-card featured\">\n        <div class=\"ticket-badge\">推荐方案</div>\n        <div class=\"plan-header\">\n          <div class=\"plan-name\">旗舰版</div>\n          <div class=\"plan-price\">¥35<span>/月</span></div>\n          <div class=\"plan-annual\">按年付仅需 ¥350/年</div>\n        </div>\n        <ul class=\"checklist\">\n          <li>每月 300GB 极速流量</li>\n          <li>支持 5 台设备同时在线</li>\n          <li>全节点原生流媒体解锁</li>\n          <li>IPLC 专线游戏加速优化</li>\n          <li>7x24 优先工单支持</li>\n        </ul>\n        <a href=\"#faq\" class=\"btn-ticket\">选择旗舰版</a>\n      </div>\n    </div>\n  </section>\n\n  <section id=\"guide\">\n    <h2>使用说明</h2>\n    <div class=\"section-desc\">// 三步配置，快速接入 jmltouzi 网络环境。</div>\n    \n    <div class=\"spec-list\">\n      <div class=\"spec-item\">\n        <h3>01. 确认订阅与凭证</h3>\n        <p>在用户面板中获取您的专属订阅链接或节点配置参数。请妥善保管凭证，切勿泄露给第三方。</p>\n      </div>\n      <div class=\"spec-item\">\n        <h3>02. 选择对应客户端</h3>\n        <p>根据您的操作系统（Windows、macOS、Linux、iOS 或 Android）下载并安装兼容的客户端软件。</p>\n      </div>\n      <div class=\"spec-item\">\n        <h3>03. 导入并启用连接</h3>\n        <p>将订阅链接导入客户端，更新节点列表，选择适合的区域线路，开启连接即可正常访问。</p>\n      </div>\n    </div>\n  </section>\n\n  <section id=\"faq\">\n    <h2>常见问题</h2>\n    <div class=\"section-desc\">// 关于连接、账户与服务的直接解答。</div>\n    \n    <div class=\"chat-container\">\n      <div class=\"chat-bubble\">\n        <div class=\"role\">USER // 提问</div>\n        <div class=\"content\">jmltouzi 的节点支持哪些主流协议？</div>\n      </div>\n      <div class=\"chat-bubble answer\">\n        <div class=\"role\">JMLTOUZI // 解答</div>\n        <div class=\"content\">我们目前全面支持主流且高效的现代加密传输协议，具体参数可在用户面板的订阅转换页面中查看并按需获取。</div>\n      </div>\n\n      <div class=\"chat-bubble\">\n        <div class=\"role\">USER // 提问</div>\n        <div class=\"content\">如果流量耗尽，是否可以额外购买叠加包？</div>\n      </div>\n      <div class=\"chat-bubble answer\">\n        <div class=\"role\">JMLTOUZI // 解答</div>\n        <div class=\"content\">当月套餐流量用尽后，您可以通过用户面板随时购买流量叠加包，或者选择升级至更高档次的套餐版本。</div>\n      </div>\n\n      <div class=\"chat-bubble\">\n        <div class=\"role\">USER // 提问</div>\n        <div class=\"content\">连接时遇到延迟高或断连应该如何排查？</div>\n      </div>\n      <div class=\"chat-bubble answer\">\n        <div class=\"role\">JMLTOUZI // 解答</div>\n        <div class=\"content\">请先尝试更新订阅以获取最新可用节点列表；其次检查本地网络防火墙设置；若问题持续存在，可通过工单系统联系 7x24 技术支持。</div>\n      </div>\n    </div>\n  </section>\n</div>\n\n<footer>\n  <div class=\"container\">\n    <div class=\"footer-content\">\n      <div>© jmltouzi ALL RIGHTS RESERVED.</div>\n      <div>PRAGMATIC NETWORK ACCESS SERVICES.</div>\n      <div><a href=\"#\">BACK TO TOP</a></div>\n    </div>\n  </div>\n</footer>",
+          "hash": "9dc0b1fdc89ccf6a9024a3bd5f8340bc4843bb85751ed45fd0c37a708dc69bb4",
+          "seo": {
+            "title": "jmltouzi - 务实的数据访问与网络连接服务",
+            "keywords": "jmltouzi, 网络连接, 数据访问, 节点服务, 稳定专线",
+            "description": "jmltouzi 提供高效、稳妥的网络连接与数据访问方案，以清单式务实口吻与清晰服务条款，满足多场景设备连通需求。"
+          },
+          "provider": "grok",
+          "model": "gemini-3.7-flash",
+          "design": {
+            "no": "6449",
+            "hero": "2 超大字号品牌名铺满首屏的海报式",
+            "palette": "10 黑白灰单色配一处强调色",
+            "nav": "6 无导航，用区块内的跳转链接",
+            "card": "6 虚线框票据风格",
+            "plans_view": "5 两栏对照配推荐标记",
+            "faq_view": "5 对话气泡式问答",
+            "tone": "6 清单式务实口吻",
+            "order": "首屏优先，其余区块由 AI 根据已选构图和信息关系安排"
+          }
+        }
+      }
+    }
+  ],
+  "domain": {
+    "apex": "guboyun.cn",
+    "host": "p-5f8d637f78.guboyun.cn",
+    "kind": "subdomain",
+    "candidate_roots_ref": "subdomain_roots:91e741dce7c147d9ce91af6f84daa678dae755807d903b04925261e0a3a8d804",
+    "prefix_mode": "auto"
+  },
+  "friendlinks": [],
+  "file_hashes": {
+    "index.html": "c0b3892a44a813bc7d27d6faf214b1207cd8abdab6001411ff20d20a2ff5f997",
+    "sitemap.xml": "e2fc780b5b6dc1e6552192ef0881862fff431004344a722d50aba4e0be7ddd54",
+    ".nojekyll": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+    "CNAME": "4c4ea23894e2398199cf4a5263c09d33e0de7d12b9885cd03a90ed084d0a2aa4",
+    "robots.txt": "9cc6e51147cd9c2107e8001b7e9a799af4be20a354fdc9b7c64c696a91512d4c",
+    "241c85ab90820b56aaee6895d635fbd7.txt": "4e0d4f6492d6de77183f6c7d99fdc4410042dbf88d8c247d90e0ef1cfb719a5a"
+  },
+  "revision": "2fad189f49e9d74c9007440644bfab200a64899b48d84c870570e3b9ea44a395"
+}
